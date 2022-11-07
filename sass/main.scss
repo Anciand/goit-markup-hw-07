@@ -1,0 +1,24 @@
+@import './utils/vars';
+@import './utils/placeholders.scss';
+@import './base/normalize';
+@import './components/header/header';
+@import './components/header/logo';
+@import './components/header/site-nav';
+@import './components/header/contacts';
+@import './components/hero/hero';
+@import './components/hero/hero-button';
+@import './components/features/features';
+@import './components/works/works';
+@import './components/team/team';
+@import './components/team/teammate';
+@import './components/clients/clients';
+@import './components/footer/footer';
+@import './components/footer/address';
+@import './components/footer/socials';
+@import './components/footer/form';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: $background;
+  color: $text;
+}
