@@ -11,11 +11,13 @@
   cursor: pointer;
 
   transition: color $transit-time $transit-function;
+
+  &:hover,
+  &:focus {
+    color: $decorative-color;
+  }
 }
-.close-modal:hover,
-.close-modal:focus {
-  color: $decorative-color;
-}
+
 .close-modal__icon {
   fill: currentColor;
 }

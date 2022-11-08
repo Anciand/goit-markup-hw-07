@@ -18,9 +18,9 @@
   cursor: pointer;
 
   transition: background-color $transit-time $transit-function;
-}
 
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: $btn-hover;
+  &:hover,
+  &:focus {
+    background-color: $btn-hover;
+  }
 }

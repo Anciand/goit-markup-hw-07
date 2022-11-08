@@ -1,8 +1,9 @@
 .footer {
   padding: 60px 0;
   background-color: $background-hero;
-}
-.footer .container {
-  display: flex;
-  align-items: baseline;
+
+  .container {
+    display: flex;
+    align-items: baseline;
+  }
 }

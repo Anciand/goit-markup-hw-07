@@ -7,8 +7,9 @@
   letter-spacing: 0.03em;
   color: $decorative-color;
   text-decoration: none;
-}
-.logo__part {
-  color: $title;
-  margin-right: 93px;
+
+  &__part {
+    color: $title;
+    margin-right: 93px;
+  }
 }

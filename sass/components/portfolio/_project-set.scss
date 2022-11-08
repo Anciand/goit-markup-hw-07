@@ -4,7 +4,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
-.cards__item {
-  flex-basis: calc(100% / 3 - 30px);
+
+  .cards__item {
+    flex-basis: calc(100% / 3 - 30px);
+  }
 }

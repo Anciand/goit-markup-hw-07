@@ -19,6 +19,11 @@
   text-decoration: none;
 
   transition: color $transit-time $transit-function;
+
+  &:hover,
+  &:focus {
+    color: $decorative-color;
+  }
 }
 .address__location {
   font-style: normal;
@@ -30,15 +35,13 @@
   color: $background;
 
   transition: color $transit-time $transit-function;
+
+  &:hover,
+  &:focus {
+    color: $decorative-color;
+  }
 }
-.address__link:hover,
-.address__link:focus {
-  color: $decorative-color;
-}
-.address__location:hover,
-.address__location:focus {
-  color: $decorative-color;
-}
+
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }

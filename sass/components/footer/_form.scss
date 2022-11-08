@@ -66,11 +66,13 @@
   cursor: pointer;
 
   transition: background-color $transit-function $transit-time;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-hover;
+  }
 }
-.send-btn:hover,
-.send-btn:focus {
-  background-color: $btn-hover;
-}
+
 .send-btn__icon {
   margin-left: 10px;
   fill: currentColor;

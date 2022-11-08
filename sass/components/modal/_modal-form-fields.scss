@@ -30,10 +30,12 @@
   background-color: $background;
   color: $title;
   outline: none;
+
+  &:focus-within {
+    border-color: $decorative-color;
+  }
 }
-.modal-field__input:focus-within {
-  border-color: $decorative-color;
-}
+
 .modal-field__icon {
   position: absolute;
   top: 50%;

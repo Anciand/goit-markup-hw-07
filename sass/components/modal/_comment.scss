@@ -27,7 +27,8 @@
   letter-spacing: 0.01em;
   color: $text;
   outline: none;
-}
-.modal-comment__area:focus-within {
-  border-color: $decorative-color;
+
+  &:focus-within {
+    border-color: $decorative-color;
+  }
 }
