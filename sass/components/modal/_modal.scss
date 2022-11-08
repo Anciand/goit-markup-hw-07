@@ -16,6 +16,8 @@
   transition: transform $transit-time $transit-function, opacity $transit-time $transit-function;
 }
 .modal__title {
+  margin: 0 0 12px 0;
+  padding: 0;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;

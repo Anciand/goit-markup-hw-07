@@ -943,6 +943,8 @@ summary {
 }
 
 .modal__title {
+  margin: 0 0 12px 0;
+  padding: 0;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -1030,7 +1032,7 @@ summary {
   height: 30px;
   border-radius: 50%;
   background-color: #ffffff;
-  border: 1px solid #afb1b8;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1056,7 +1058,7 @@ summary {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -1140,6 +1142,48 @@ summary {
 
 .modal-field__input:focus-within + .modal-field__icon {
   fill: #2196f3;
+}
+
+.modal-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.modal-comment__label {
+  margin: 0 0 4px 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.modal-comment__area {
+  margin: 0;
+  padding: 12px 16px;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+  outline: none;
+}
+
+.modal-comment__area:focus-within {
+  border-color: #2196f3;
 }
 
 body {
